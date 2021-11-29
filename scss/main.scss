@@ -149,3 +149,10 @@ ul li {
     
 
 }
+.btn-primary{
+   background-color: $color-secondary;
+}
+.btn:hover {
+    background-color: $color-main;
+
+}

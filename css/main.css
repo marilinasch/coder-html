@@ -109,3 +109,9 @@ h2 {
 
 .cont-client {
   margin-top: -40%; }
+
+.btn-primary {
+  background-color: #00a3b3; }
+
+.btn:hover {
+  background-color: #773d8f; }
