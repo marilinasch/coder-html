@@ -2,3 +2,23 @@
 $color-main: #773d8f;
 $color-secondary: #00a3b3;
 
+//mapa
+
+    
+
+$smallBP: 480px;
+$mediumBP: 768px;
+$largeBP: 960px;
+$wideBP: 1200px;
+
+@mixin breakpoint($point) {
+  @if $point == small {
+    @media (max-width: $smallBP) { @content; }
+  } @else if $point == medium {
+    @media (max-width: $mediumBP) { @content; }
+  } @else if $point == large {
+    @media (max-width: $largeBP) { @content; }
+  } @else if $point == wide {
+    @media (max-width: $wideBP) { @content; }
+  }
+  }
