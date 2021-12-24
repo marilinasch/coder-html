@@ -130,7 +130,7 @@ label #cancel {
 #check {
   display: none; }
 
-@media (max-width: 900px) {
+@media (max-width: 914px) {
   body {
     width: 98%; }
   nav ul {
